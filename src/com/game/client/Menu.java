@@ -31,7 +31,7 @@ public class Menu {
         return("TIC TAC TOE\n" +
                 "__________________________________________________________________\n" +
                 "The game is played on a grid that's 3 squares by 3 squares.\n" +
-                "You are X, your friend is O.\n" +
+                "You are X, your friend is O (Human vs. Human only).\n" +
                 "Players take turns putting their marks in empty squares.\n" +
                 "The first player to get 3 of her marks in a row is the winner.\n" +
                 "When all 9 squares are full, the game is over.");
