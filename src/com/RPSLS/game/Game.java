@@ -9,7 +9,7 @@ import java.util.TreeMap;
 import static com.RPSLS.game.Gestures.*;
 
 public class Game {
-    public static final Player playerOne = new Human();
+    public static Player playerOne = new Human();
     public static Player playerTwo;
     public static int gameWins = 3;
 
@@ -73,6 +73,7 @@ public class Game {
     }
 
     public static void runGame() {
+        playerOne = new Human();
         new WelcomeScreen();
     }
 }
